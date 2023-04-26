@@ -1,0 +1,169 @@
+
+Body {background-color : #7d7a7a;/* color de la parte de abajo de pagina*/
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Encode Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(253, 199, 22) ;/* color de letras */
+}
+
+header {
+  background-color: #333;/* color margen de arriba */
+  padding: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: flex-end;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: rgb(0, 0, 0);/* color de letras de arriba*/
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: rgb(29, 29, 29);/* color de fondo de letras de arriba */
+  color: rgb(253, 199, 22);/* color de seleccion de letras de arriba */
+}
+
+.btn {
+  background-color: #333;/* color de letras de fondo de registro */
+  color: rgb(253, 199, 22);/* color de letras de registro */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  background-color:rgb(29, 29, 29);/* color de fondo de registro cuando seleccionas */
+  color: rgb(253, 199, 22);/* x */
+  border: rgb(253, 199, 22);/* x */
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Black Han Sans', sans-serif;
+  text-align:center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  background-image: url(gym2.jpeg);
+  font-family:'Black Han Sans', sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: right;
+  flex-direction: ;
+}
+
+h2 {
+  font-size: 24px;
+  align-items: left;
+}
+
+.banner {
+  background-image: url('gym fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(253, 199, 22);/* color de letras de titulos */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);/* Aquí puedes escribir tu comentario */
+}
+
+.banner h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.servicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.servicio {
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);/* Aquí puedes escribir tu comentario */
+}
+
+.servicio img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.servicio h3 {
+  font-size: 24px;
+  margin: 10px 20px;
+}
+
+.servicio p {
+  font-size: 16px;
+  margin: 10px 20px 20px;
+}
+
+.horario {
+  margin-bottom: 40px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #333;/* Aquí puedes escribir tu comentario */
+}
+
+th {
+  background-color: rgb(29, 29, 29);;/* color de fondo de horarios */
+}
